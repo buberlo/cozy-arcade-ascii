@@ -1,0 +1,26 @@
+{
+  "name": "cozy-arcade",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A fast-to-ship, ASCII-rendered arcade game with shareable join, compete, and export links.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "phaser": "^3.80.1",
+    "sql.js": "^1.10.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
